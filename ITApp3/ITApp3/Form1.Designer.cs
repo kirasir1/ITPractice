@@ -80,9 +80,9 @@
       this.label1.AutoSize = true;
       this.label1.Location = new System.Drawing.Point(265, 193);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(224, 13);
+      this.label1.Size = new System.Drawing.Size(212, 13);
       this.label1.TabIndex = 4;
-      this.label1.Text = "Кликни на меня, чтобы сбросить значения";
+      this.label1.Text = "Нажми на меня, чтобы сбросить кнопки";
       this.label1.Click += new System.EventHandler(this.label1_Click);
       // 
       // Form1
