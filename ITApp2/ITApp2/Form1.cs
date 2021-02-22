@@ -18,9 +18,24 @@ namespace ITApp2
     private void button1_Click(object sender, EventArgs e)
     {
       event1 = randevent.Next(0, 4);
+      event2 = randevent.Next(0, 4);
+      event3 = randevent.Next(0, 4);
+      event4 = randevent.Next(0, 4);
       if (event1 == 3)
       {
         label1.Text = " ";
+      }
+      if (event2 == 3)
+      {
+        label2.Text = " ";
+      }
+      if (event3 == 3)
+      {
+        label3.Text = " ";
+      }
+      if (event4 == 3)
+      {
+        label4.Text = " ";
       }
       if (label1.Text == " " && label2.Text == " " && label1.Text == " " && label1.Text == " ")
       {
@@ -30,10 +45,25 @@ namespace ITApp2
     }
     private void button2_Click(object sender, EventArgs e)
     {
+      event1 = randevent.Next(0, 4);
       event2 = randevent.Next(0, 4);
+      event3 = randevent.Next(0, 4);
+      event4 = randevent.Next(0, 4);
+      if (event1 == 3)
+      {
+        label1.Text = " ";
+      }
       if (event2 == 3)
       {
         label2.Text = " ";
+      }
+      if (event3 == 3)
+      {
+        label3.Text = " ";
+      }
+      if (event4 == 3)
+      {
+        label4.Text = " ";
       }
       if (label1.Text == " " && label2.Text == " " && label3.Text == " " && label4.Text == " ")
       {
@@ -42,10 +72,25 @@ namespace ITApp2
   }
     private void button3_Click(object sender, EventArgs e)
     {
+      event1 = randevent.Next(0, 4);
+      event2 = randevent.Next(0, 4);
       event3 = randevent.Next(0, 4);
+      event4 = randevent.Next(0, 4);
+      if (event1 == 3)
+      {
+        label1.Text = " ";
+      }
+      if (event2 == 3)
+      {
+        label2.Text = " ";
+      }
       if (event3 == 3)
       {
         label3.Text = " ";
+      }
+      if (event4 == 3)
+      {
+        label4.Text = " ";
       }
       if (label1.Text == " " && label2.Text == " " && label3.Text == " " && label4.Text == " ")
       {
@@ -54,11 +99,26 @@ namespace ITApp2
     }
     private void button4_Click(object sender, EventArgs e)
     {
+      event1 = randevent.Next(0, 4);
+      event2 = randevent.Next(0, 4);
+      event3 = randevent.Next(0, 4);
       event4 = randevent.Next(0, 4);
+      if (event1 == 3)
+      {
+        label1.Text = " ";
+      }
+      if (event2 == 3)
+      {
+        label2.Text = " ";
+      }
+      if (event3 == 3)
+      {
+        label3.Text = " ";
+      }
       if (event4 == 3)
       {
         label4.Text = " ";
-      }
+      } 
       if (label1.Text == " " && label2.Text == " " && label3.Text == " " && label4.Text == " ")
       {
         label5.Text = "Ты выиграл!";
