@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7327D022-C990-4B8D-BA6A-21FBE7380DEA}</ProjectGuid>
+    <ProjectGuid>{158C206C-2019-4DAB-B8FB-1E3AB3321AAC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ITApp10</RootNamespace>
-    <AssemblyName>ITApp10</AssemblyName>
+    <RootNamespace>Pakindrom4</RootNamespace>
+    <AssemblyName>Pakindrom4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

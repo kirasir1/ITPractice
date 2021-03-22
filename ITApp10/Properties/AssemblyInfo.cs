@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("ITApp10")]
+[assembly: AssemblyTitle("Pakindrom4")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ITApp10")]
+[assembly: AssemblyProduct("Pakindrom4")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("7327d022-c990-4b8d-ba6a-21fbe7380dea")]
+[assembly: Guid("158c206c-2019-4dab-b8fb-1e3ab3321aac")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

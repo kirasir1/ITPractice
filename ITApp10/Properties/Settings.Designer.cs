@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITApp10.Properties
+namespace Pakindrom4.Properties
 {
 
 
