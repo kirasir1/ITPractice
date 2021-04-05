@@ -18,6 +18,8 @@ namespace ITApp11
       InitializeComponent();
     }
     bool flag = false;
+    int y1 = 160;
+    int y2 = 38;
     private void Form1_Paint(object sender, PaintEventArgs e)
     {
       Pen blackPen = new Pen(Color.Black, 3);
@@ -57,16 +59,20 @@ namespace ITApp11
     private void button1_Click(object sender, EventArgs e)
     {
       SolidBrush grayBrush = new SolidBrush(Color.Gray);
+      Pen blackPen = new Pen(Color.Black, 3);
       if (flag != true)
       {
         Rectangle makeSmoke = new Rectangle(268, 160, 35, 38);
         float startAngle = 0.0F;
         float sweepAngle = -180.0F;
         this.CreateGraphics().FillPie(grayBrush, makeSmoke, startAngle, sweepAngle);
+        flag = true;
       }
       else
       {
-
+        y1 -= 20;
+        Rectangle makeSmoke1 = new Rectangle(268, y1, 35, y2);
+        this.CreateGraphics().FillEllipse(grayBrush, makeSmoke1);
       }
     }
   }
