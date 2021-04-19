@@ -34,6 +34,9 @@
       this.button3 = new System.Windows.Forms.Button();
       this.button4 = new System.Windows.Forms.Button();
       this.button5 = new System.Windows.Forms.Button();
+      this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+      this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+      this.backgroundWorker3 = new System.ComponentModel.BackgroundWorker();
       ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
       this.SuspendLayout();
       // 
@@ -95,6 +98,18 @@
       this.button5.UseVisualStyleBackColor = true;
       this.button5.Click += new System.EventHandler(this.button5_Click);
       // 
+      // backgroundWorker1
+      // 
+      this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+      // 
+      // backgroundWorker2
+      // 
+      this.backgroundWorker2.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker2_DoWork);
+      // 
+      // backgroundWorker3
+      // 
+      this.backgroundWorker3.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker3_DoWork);
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,6 +136,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker3;
     }
 }
 
